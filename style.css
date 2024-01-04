@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url(/fonts/Helvetica/helvetica_regular.otf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto.ttf);
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar,
+.navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 80px;
+}
+
+.nav li {
+    display: inline;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 1.7em;
+    font-weight: 300;
+    padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    background-color: #444444;
+    transition: 0.7s all linear;
+    height: 100%;
+}
+
+h1.mobile {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #212529;
+}
+
+h2.mobile {
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #101828;
+}
+
+h3.mobile {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #101828;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #212529;
+}
+
+hr {
+    color: #000000;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #212529;
+}
+
+a {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #212529;
+    text-decoration-line: underline;
+}
+
+.card-title {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.card-black {
+    justify-content: space-between;
+    background-color: rgba(33, 37, 41, 0.5);
+}
+
+.large {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #101828;
+}
+
+.border {
+    border-color: #000000;
+}
+
+.submit {
+    padding: 12px 20px;
+    background-color: #212529;
+    color: #FFFFFF;
+    border: 0;
+}
